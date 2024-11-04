@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World 123'
             }
         }
-        stage('Hello 2') {
+        stage('whoami') {
             steps {
                 sh 'whoami'
             }
